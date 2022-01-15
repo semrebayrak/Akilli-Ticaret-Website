@@ -71,7 +71,7 @@ function Items() {
                     <span className="name">   {item.name}</span>
                     <span className="price">      {item.price}TL</span>
 
-                    <span className="taksit">  <b>Taksitli Fiyatı</b> &nbsp;{(item.price / 3).toFixed(2)}TL</span>
+                    <span className="taksit">  <b>Taksitli Fiyatı</b> &nbsp; 3 x {(item.price / 3).toFixed(2)}TL</span>
                     <div className="buy">
 
                         <div className="amount">
