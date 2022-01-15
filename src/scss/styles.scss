@@ -75,11 +75,13 @@ $borderColor: rgba(179, 174, 174, 0.452);
     width: 100%;
     justify-content: space-between;
     align-items: center;
-
+    overflow: hidden;
     .logo {
         padding-left: 3%;
         width: 20%;
+        
         img {
+           
             max-width: 100%;
         }
         @media (max-width: 1000px) {
@@ -424,7 +426,7 @@ $borderColor: rgba(179, 174, 174, 0.452);
             align-items: center;
             height: 40px;
             width: 16vw;
-            
+            color: white;
             background-color: white;
             border: 1% color $borderColor;
             .button {

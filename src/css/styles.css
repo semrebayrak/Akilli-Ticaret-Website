@@ -91,6 +91,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .headerContainer .logo {
@@ -594,6 +595,7 @@
           align-items: center;
   height: 40px;
   width: 16vw;
+  color: white;
   background-color: white;
   border: 1% color rgba(179, 174, 174, 0.452);
 }
